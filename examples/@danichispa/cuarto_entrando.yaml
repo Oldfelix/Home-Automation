@@ -1,0 +1,23 @@
+alias: 'Entrando al cuarto'
+trigger:
+  platform: state
+  entity_id: binary_sensor.movimiento8_8_0
+  to: 'on'
+condition:
+  - condition: state
+    entity_id: input_boolean.entrarsalircuarto
+    state: 'on'
+  - condition: state
+    entity_id: light.mesitaana
+    state: 'on'
+  - condition: state
+    entity_id: light.mesitadani
+    state: 'on'
+  - condition: template
+    value_template: '{% if states.light.mesitaana %}{{ states.light.mesitaana.attributes.brightness < 200 }}{% else %}false{% endif %}'
+  - condition: time
+    after: '18:00'
+    before: '23:00'
+action:
+  service: scene.turn_on
+  entity_id: scene.SubeLucesCuarto

@@ -1,0 +1,18 @@
+switch:
+- platform: mqtt
+  state_topic: "/house/External/Garage/Id:GD1"
+  name: "Garage Door (ESP-8266-Dev)"
+  qos: 0
+  payload_on: "1"
+  payload_off: "0"
+
+
+switch_1:
+- platform: mqtt
+  state_topic: "/house/lights1"
+  name: "SonOff 1"
+  qos: 0
+  payload_on: "1"
+  payload_off: "0"
+  retain: true
+

@@ -1,0 +1,173 @@
+################################################################
+
+## Configuration
+
+################################################################
+
+
+
+homeassistant:
+
+name:  Your Home Name
+
+latitude: !secret home_latitude
+
+longitude: !secret home_longitude
+
+elevation: !secret home_elevation
+
+time_zone: MST
+
+unit_system: imperial
+
+customize: !include customize.yaml
+
+frontend:
+
+history:
+
+logbook:
+
+sun:
+
+updater:
+
+################################################
+
+## Components (Non-Includes)
+
+################################################
+
+apcupsd:
+
+telegram:
+
+  api_key: !secret telegram_bot_key
+
+  chat_ids: !secret telegram_chat_id
+
+  users: dale3h
+
+  admins: dale3h
+
+
+ecobee:
+
+  api_key: !secret ecobee_api_key
+
+  hold_temp: true
+
+
+
+http:
+
+  api_password: !secret http_api_password
+
+
+mqtt:
+
+  broker: !secret mqtt_broker
+
+  port: !secret mqtt_port
+
+  username: !secret mqtt_username
+
+  password: !secret mqtt_password
+
+
+
+recorder:
+
+  purge_days: 7
+
+
+
+################################################
+
+## Component Includes (Single File)
+
+################################################
+
+
+
+emulated_hue: !include emulated_hue.yaml
+
+ios: !include ios.yaml
+
+logger: !include logger.yaml
+
+zwave: !include zwave.yaml
+
+
+
+################################################
+
+## Component Includes (Named)
+
+################################################
+
+
+
+alexa:
+
+  intents: !include_dir_named alexa
+
+
+
+################################################
+
+## Component Includes (Merge List)
+
+################################################
+
+
+
+# automation: !include_dir_merge_list automation
+
+binary_sensor: !include_dir_merge_list binary_sensor
+
+camera: !include_dir_merge_list camera
+
+cover: !include_dir_merge_list cover
+
+device_tracker: !include_dir_merge_list device_tracker
+
+# light: !include_dir_merge_list light
+
+media_player: !include_dir_merge_list media_player
+
+notify: !include_dir_merge_list notify
+
+remote: !include_dir_merge_list remote
+
+scene: !include_dir_merge_list scene
+
+sensor: !include_dir_merge_list sensor
+
+# switch: !include_dir_merge_list switch
+
+zone: !include_dir_merge_list zone
+
+
+
+################################################
+
+## Component Includes (Merge Named)
+
+################################################
+
+
+
+group: !include_dir_merge_named group
+
+input_boolean: !include_dir_merge_named input_boolean
+
+input_select: !include_dir_merge_named input_select
+
+input_slider: !include_dir_merge_named input_slider
+
+panel_iframe: !include_dir_merge_named panel_iframe
+
+script: !include_dir_merge_named script
+
+shell_command: !include_dir_merge_named shell_command

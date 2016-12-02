@@ -1,0 +1,38 @@
+################################################################
+
+## Cover / Garage Door
+
+################################################################
+
+
+
+################################################
+
+##  Connect MQTT Bridge
+
+################################################
+
+
+
+- platform: mqtt
+
+  name: garage_door
+
+  state_topic: "/house/External/Garage/Id:GD1"
+
+  command_topic: "/house/External/Garage/Id:GD1"
+
+#home-assistant/cover/garage_door/set
+
+  payload_open: '1'
+
+  payload_close: '0'
+
+  payload_stop: 'stop'
+
+  state_open: 'open'
+
+  state_closed: 'closed'
+
+  retain: true
+
