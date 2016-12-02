@@ -1,4 +1,4 @@
-# homeassistant-config# Home-Assistant Config by [@wingit2](http://www.twitter.com/wingittwo)
+Home-Assistant Config by [@wingit2](http://www.twitter.com/wingittwo)
 [Home Assistant](https://home-assistant.io/) configuration files (YAMLs)
 
 This is my Home Assistant Configuration and first GitHub repository. I'll be updating regularly. 
