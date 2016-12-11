@@ -5,8 +5,8 @@
 #include <PubSubClient.h>
 
 /* WiFi Settings */
-const char* ssid     = "wings";
-const char* password = "B!rd2016";
+const char* ssid     = "xxxx";
+const char* password = "xxxx";
 
 /* ESP9266 Outputs */
 const int relayPin = 5;  // Active high
@@ -14,7 +14,7 @@ const int _pin = 16;
 
 /* MQTT Settings */
 const char* mqttTopic = "/house/external/garage/GD1";   // MQTT topic
-IPAddress broker(10,10,128,234);          // Address of the MQTT broker
+IPAddress brokerxxx,xxx,xxx,xxx);          // Address of the MQTT broker
 #define CLIENT_ID "client-sonoff1"         // Client ID to send to the broker
 
 class Ultrasonic
