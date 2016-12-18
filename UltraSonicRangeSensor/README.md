@@ -75,24 +75,24 @@ You may have seen it by now, the difference between the 3 pin system and the 4 p
         
 Any variable under "pinMode" output has to be modified to "trig" and any variable under "pinMode" input has to be modified to "echo". The final code becomes...
 
-```       
-/************************************
+       
+```/************************************
 Ultrasonic Range Sensor 4 Pin
 Sean Poulter
 Created: 12/21/13
 Last Updated: 1/1/14
 ************************************/
-
-const int Trig = 2;
+```
+```const int Trig = 2;
 const int Echo = 4;
-
-void setup(){
+```
+```void setup(){
   pinMode(Trig, OUTPUT);
   pinMode(Echo, INPUT);
   Serial.begin(9600);
 }
-  
-  void loop() {
+```
+```  void loop() {
     
     long duration, inches, cm;
     
@@ -106,7 +106,7 @@ void setup(){
   
   inches = microsecondsToInches(duration);
   cm = microsecondsToCentemeters(duration);
-  
+```  
   Serial.print(inches);
   Serial.print(" in, ");
   Serial.print(cm);
