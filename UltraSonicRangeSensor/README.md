@@ -57,9 +57,9 @@ void setup(){
     return microseconds / 29 / 2;
   }
 ```
-## 2.	Once you've looked at the problem from a new, and simpler, 
-		perspective you'll find that adding the additional pin is remarkably easy. 
-		You just need to understand the differences in hardware.
+**Once you've looked at the problem from a new, and simpler, 
+perspective you'll find that adding the additional pin is remarkably easy. 
+You just need to understand the differences in hardware.**
       
 	- In the three pin system, the signal pin is used to send pulses to the microphone. In the code this is shown by...
 ```
