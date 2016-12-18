@@ -67,7 +67,7 @@ void setup(){
 perspective you'll find that adding the additional pin is remarkably easy. 
 You just need to understand the differences in hardware.**
       
-** In the three pin system, the signal pin is used to send pulses to the microphone. In the code this is shown by...**
+**In the three pin system, the signal pin is used to send pulses to the microphone. In the code this is shown by...**
 
 
 ```
@@ -83,8 +83,7 @@ pinMode(sig, OUTPUT);  
 This is shown directly after the above code with...**
 
 ```pinMode(sig, INPUT);
-  duration = pulseIn(sig, HIGH);
-```
+  duration = pulseIn(sig, HIGH);```
 
 **You may have seen it by now, the difference between the 3 pin system and the 4 pin is simple. 
 In the 3 pin system the sig pin operates both the "out" and "in" pulses, while in the 4 pin system 
