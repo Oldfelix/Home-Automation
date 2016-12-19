@@ -25,12 +25,12 @@ const int sig = 4;
 
 void setup(){
   
-  Serial.begin(9600);
-}
+  Serial.begin(9600);
+  }
   
-  void loop() {
+void loop() {
     
-    long duration, inches, cm;
+  long duration, inches, cm;
   
   pinMode(sig, OUTPUT);  
   digitalWrite(sig, LOW);
@@ -71,7 +71,7 @@ You just need to understand the differences in hardware.**
 
 
 ```
-pinMode(sig, OUTPUT);  
+  pinMode(sig, OUTPUT);  
   digitalWrite(sig, LOW);
   delay(2);
   digitalWrite(sig, HIGH);
@@ -82,8 +82,10 @@ pinMode(sig, OUTPUT);  
 **The same pin, "sig", is also used to read the pulses back from the return microphone. 
 This is shown directly after the above code with...**
 
-```pinMode(sig, INPUT);
-  duration = pulseIn(sig, HIGH);```
+```
+  pinMode(sig, INPUT);
+  duration = pulseIn(sig, HIGH);
+```
 
 **You may have seen it by now, the difference between the 3 pin system and the 4 pin is simple. 
 In the 3 pin system the sig pin operates both the "out" and "in" pulses, while in the 4 pin system 
@@ -95,7 +97,8 @@ modify the above two sections of code.**
 "pinMode" input has to be modified to "echo". The final code becomes...**
 
        
-```/************************************
+```
+/************************************
 
 Ultrasonic Range Sensor 4 Pin
 
@@ -103,19 +106,19 @@ Sean Poulter
 Created: 12/21/13
 Last Updated: 1/1/14
 ************************************/
-```
-```const int Trig = 2;
-const int Echo = 4;
-```
-```void setup(){
+
+  const int Trig = 2;
+  const int Echo = 4;
+
+  void setup(){
   pinMode(Trig, OUTPUT);
   pinMode(Echo, INPUT);
   Serial.begin(9600);
-}
-```
-```  void loop() {
+  }
+
+  void loop() {
     
-    long duration, inches, cm;
+  long duration, inches, cm;
     
   digitalWrite(Trig, LOW);
   delay(2);
@@ -127,7 +130,7 @@ const int Echo = 4;
   
   inches = microsecondsToInches(duration);
   cm = microsecondsToCentemeters(duration);
-```  
+  
   Serial.print(inches);
   Serial.print(" in, ");
   Serial.print(cm);
@@ -138,14 +141,15 @@ const int Echo = 4;
   
   long microsecondsToInches(long microseconds) {
     
-    return microseconds / 74 /2;
+  return microseconds / 74 /2;
   }
   
   long microsecondsToCentemeters(long microseconds) {
     
-    return microseconds / 29 / 2;
+  return microseconds / 29 / 2;
   }
 ```
+
 **Any problem you come across can be broken down into simpler parts, 
 as was done here. Developing strong problem solving skills is the key to 
 success in programming, engineering, and all of the academic world.**
