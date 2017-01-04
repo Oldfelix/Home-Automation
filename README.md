@@ -1,4 +1,4 @@
-# homeassistant-config# by [@wingit2](http://www.twitter.com/wingittwo)
+# homeassistant-config# 
 [Home Assistant](https://home-assistant.io/) configuration files (YAMLs)
 
 This is my Home Assistant Configuration and first GitHub repository. I'll be updating regularly. 
@@ -13,6 +13,7 @@ Software on the Pi : [Home Assistant](https://home-assistant.io/) [Mosquitto] (h
 * [Phillips Hue Starter Kit 2nd Gen](https://www.amazon.com/Philips-Ambiance-Starter-Bridge-Generation/dp/B014H2P4KW/ref=sr_1_2?s=electronics&ie=UTF8&qid=1480714447&sr=1-2&keywords=phillips+hue+starter+kithttp://amzn.to/2eoQTJy)
 * [SONOFF WiFi Wirless Smart Switches (Lots!)] (https://www.itead.cc/sonoff-wifi-wireless-switch.html)
 * [ESP8266-EVB boards] (https://www.olimex.com/Products/IoT/ESP8266-EVB/open-source-hardware)
+* [NodeMCU] (https://www.amazon.com/HiLetgo-Version-NodeMCU-Internet-Development/dp/B010O1G1ES/ref=sr_1_1?s=pc&ie=UTF8&qid=1483568521&sr=1-1&keywords=hiletgo+NodeMCU)
 
 
 **Automations:**
@@ -44,6 +45,6 @@ Software on the Pi : [Home Assistant](https://home-assistant.io/) [Mosquitto] (h
 * http://www.esp8266.nu/index.php/ESPEasy
 * https://github.com/thundergreen/home-assistant/wiki/Add-OZWCP-in-HASS
 
-https://community.home-assistant.io/t/voice-controlled-cheap-non-smart-led-strip-with-ok-google-command/5756
+* https://community.home-assistant.io/t/voice-controlled-cheap-non-smart-led-strip-with-ok-google-command/5756
 
-https://community.home-assistant.io/t/detect-if-ip-changes/6830
+* https://community.home-assistant.io/t/detect-if-ip-changes/6830
