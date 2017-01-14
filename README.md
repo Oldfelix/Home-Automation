@@ -47,8 +47,4 @@ Software on the Pi : [Home Assistant](https://home-assistant.io/) [Mosquitto] (h
 
 * https://community.home-assistant.io/t/voice-controlled-cheap-non-smart-led-strip-with-ok-google-command/5756
 
-<<<<<<< HEAD
 * https://community.home-assistant.io/t/detect-if-ip-changes/6830
-=======
-* https://community.home-assistant.io/t/detect-if-ip-changes/6830
->>>>>>> origin/master
