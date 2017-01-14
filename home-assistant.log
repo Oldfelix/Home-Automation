@@ -1,0 +1,23 @@
+17-01-13 02:00:01 homeassistant.components.sensor.yr: Retrying in 15 minutes: http://api.met.no/weatherapi/locationforecast/1.9/?msl=4200&lon=-112.2759&lat=41.6956 returned 503
+17-01-13 09:52:39 aiohttp.server: Error handling request
+Traceback (most recent call last):
+  File "/home/homeassistant/.homeassistant/deps/aiohttp/web_server.py", line 61, in handle_request
+    resp = yield from self._handler(request)
+  File "/home/homeassistant/.homeassistant/deps/aiohttp/web.py", line 249, in _handle
+    resp = yield from handler(request)
+  File "/usr/lib/python3.4/asyncio/coroutines.py", line 143, in coro
+    res = yield from res
+  File "/usr/lib/python3.4/asyncio/coroutines.py", line 143, in coro
+    res = yield from res
+  File "/srv/hass/lib/python3.4/site-packages/homeassistant/components/http/__init__.py", line 427, in handle
+    result = yield from result
+  File "/srv/hass/lib/python3.4/site-packages/homeassistant/components/frontend/__init__.py", line 260, in get
+    None, self.templates.get_template, 'index.html')
+  File "/usr/lib/python3.4/asyncio/futures.py", line 388, in __iter__
+    yield self  # This tells Task to wait for completion.
+concurrent.futures._base.CancelledError
+17-01-13 16:25:08 homeassistant.core: Error doing job: Fatal read error on socket transport
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/asyncio/selector_events.py", line 582, in _read_ready
+    data = self._sock.recv(self.max_size)
+TimeoutError: [Errno 110] Connection timed out

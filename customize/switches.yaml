@@ -1,0 +1,13 @@
+###################################
+##  Switches Section
+###################################
+
+switch.bedroom_fan:
+  friendly_name: Bedroom Fan
+  entity_picture: /local/fan2.jpg
+switch.living_room:
+  friendly_name: "Living Room Corner Lamp"
+  entity_picture: /local/powerbutton.png
+switch.the_lab:
+  friendly_name: "Lab Lamp"
+  entity_picture: /local/powerbutton.png

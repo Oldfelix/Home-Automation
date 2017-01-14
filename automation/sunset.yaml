@@ -1,0 +1,14 @@
+- alias: "Action - Poweron lights before sunset"
+  trigger: 
+    - platform: sun
+      event: sunset
+      offset: "-00:40:00"
+  condition: 
+    - condition: state
+      entity_id: group.all_devices
+      state: 'home' 
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+       - group.all_lights
+       - group.all_switches

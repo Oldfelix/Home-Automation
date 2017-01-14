@@ -1,0 +1,6 @@
+  enviroment_view:
+    name: Enviroment 
+    view: yes
+    entities:
+      - sun.sun
+      - sensor.yr_symbol

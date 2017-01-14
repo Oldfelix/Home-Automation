@@ -1,0 +1,14 @@
+speedtest.py,sha256=CzWuhVVonvBXCGMkUpCUupgerCVGyivDQqC7XaUEQg0,43882
+speedtest_cli.py,sha256=H3Gry76vE0llZpy5RqaW3nBzOM1DvyNXJrh577-srHI,1200
+speedtest_cli-1.0.0.dist-info/DESCRIPTION.rst,sha256=CEni6A8MXXNRr0jKuf2IWf3BtNsWpm21dJX0gqnrLvo,4618
+speedtest_cli-1.0.0.dist-info/METADATA,sha256=lxIXCbAcsms9vhy1tvvKeiVTXmEu-Xh0ZkAtFL16VjQ,5736
+speedtest_cli-1.0.0.dist-info/RECORD,,
+speedtest_cli-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+speedtest_cli-1.0.0.dist-info/entry_points.txt,sha256=h-qAIDgwinZQNlAOKwyCgGy62GrIEzDr1E9BjqvhaK4,77
+speedtest_cli-1.0.0.dist-info/metadata.json,sha256=KFDFldcOlal01jIlsb3GTCbtV4NHYCGrGPIGDZ-1ZCk,1399
+speedtest_cli-1.0.0.dist-info/top_level.txt,sha256=69gQfGG1Otz58z9FEyivjJha687zL7940TuiKIDzAW0,24
+../../bin/speedtest,sha256=XakdjzDyzORNf7gtlOG6-2hyPmCh_Y1CSqzms1jAEbM,245
+../../bin/speedtest-cli,sha256=XakdjzDyzORNf7gtlOG6-2hyPmCh_Y1CSqzms1jAEbM,245
+speedtest_cli-1.0.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+__pycache__/speedtest_cli.cpython-34.pyc,,
+__pycache__/speedtest.cpython-34.pyc,,

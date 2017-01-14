@@ -1,0 +1,6 @@
+  mobile_devices_view:
+    name: Mobile Devices
+    view: yes
+    entities:
+      - light.mobile_one_light
+      

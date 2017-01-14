@@ -1,0 +1,14 @@
+- alias: "Action - poweroff_lights_after_sunrise"
+  trigger:
+    - platform: state
+      entity_id: group.all_devices
+      state: 'home'
+  condition:
+    - condition: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+  action:
+    service: homeassistant.turn_on
+    entity_id:
+      - group.all_lights
+      - group.all_switches

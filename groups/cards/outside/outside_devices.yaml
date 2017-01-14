@@ -1,0 +1,4 @@
+  outside_devices:
+    name: Outside Devices
+    entities:
+      - light.front_porch_light

@@ -1,0 +1,5 @@
+  enviroment:
+    name: Enviroment
+    entities:
+      - sun.sun
+      - sensor.yr_symbol

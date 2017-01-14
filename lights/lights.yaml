@@ -1,0 +1,4 @@
+light:
+platform: hue 
+name: "Phillips Hue Lights"
+host: !secret hue_hosts

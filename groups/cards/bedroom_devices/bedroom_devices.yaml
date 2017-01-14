@@ -1,0 +1,5 @@
+  bedroom_devices:
+    name: Bedroom
+    entities:
+      - switch.bedroom_fan
+#      - light.nightstand

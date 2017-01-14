@@ -1,0 +1,88 @@
+# group.all_mobile_devices:
+ # friendly_name: Mobile Phones
+# group.all_nonmobile_devices:
+ # friendly_name: Other devices
+ # hidden: true
+group.all_switches_and_lights:
+ friendly_name: All switches and lights
+ hidden: false
+# group.nursery:
+ # friendly_name: Nursery Lamps
+ # entity_picture: http://www.lindleyhome.com/lamp.png
+# light.basement_stairwell:
+ # friendly_name: Stairwell
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.kitchen_landing:
+ # friendly_name: Stairwell Landing
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.family_room_overhead:
+ # friendly_name: Family Room Overhead
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.front_porch:
+ # friendly_name: Front Porch
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.living_room_overhead:
+ # friendly_name: Living Room Overhead
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.living_room_lamp:
+ # friendly_name: Living Room Lamp
+ # entity_picture: http://www.lindleyhome.com/lamp.png
+# light.master_landing:
+ # friendly_name: Master Bedroom Landing
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# light.nursery_lamp_left:
+ # hidden: true
+ # entity_picture: http://www.lindleyhome.com/lamp.png
+# light.nursery_lamp_right:
+ # hidden: true
+ # entity_picture: http://www.lindleyhome.com/lamp.png
+# light.office_desk:
+ # friendly_name: Office Desk Lamp
+ # entity_picture: http://www.lindleyhome.com/lamp.png
+# light.upstairs_landing:
+ # friendly_name: Landing
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# scene.pathway_low:
+ # hidden: true
+# scene.return_low:
+ # hidden: true
+# script.all_off_delay:
+ # hidden: true
+# script.away:
+ # hidden: true
+# script.home:
+ # hidden: true
+# sensor.garage:
+ # friendly_name: Garage Door
+ # entity_picture: http://www.lindleyhome.com/garagedoor.jpg
+# script.close_garage:
+ # entity_picture: http://www.lindleyhome.com/close_garage.png
+# script.open_garage:
+ # entity_picture: http://www.lindleyhome.com/open_garage.png
+# sensor.spare:
+ # friendly_name: Spare Sensor
+# sensor.weather_temperature:
+ # friendly_name: Outside Temperature
+# sensor.weather_summary:
+ # friendly_name: Summary
+# sensor.weather_precip:
+ # friendly_name: Precipitation Type
+# sensor.weather_precip_intensity:
+ # friendly_name: Precipitation Intensity
+# sensor.weather_precip_probability:
+ # friendly_name: Probability of Percipitation
+# switch.kitchen_overhead:
+ # friendly_name: Kitchen Overhead
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# switch.kitchen_cabinets:
+ # friendly_name: Kitchen Cabinets
+ # entity_picture: http://www.lindleyhome.com/recessed.png
+# thermostat.upstairs:
+ # friendly_name: Nest Thermostat
+ # entity_picture: https://dl.dropboxusercontent.com/u/81386/HA-Stuff/nest.jpg
+# thermostat.basement:
+ # friendly_name: Nest Thermostat
+ # entity_picture: https://dl.dropboxusercontent.com/u/81386/HA-Stuff/nest.jpg
+# thermostat.main_floor:
+ # friendly_name: Nest Thermostat
+ # entity_picture: https://dl.dropboxusercontent.com/u/81386/HA-Stuff/nest.jpgA

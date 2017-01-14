@@ -1,0 +1,28 @@
+######################################################################
+##  Awesome Sonoff switch control
+######################################################################
+
+
+- platform: mqtt
+  name: "The Lab"
+  state_topic: "/house/sonOff/switch/power/S1"
+  command_topic: "/house/sonOff/switch/power/S1"
+  payload_on: "1"
+  payload_off: "0"
+  retain: true
+- platform: mqtt
+  name: "Living Room"
+  state_topic: "/house/sonOff/switch/power/S3"
+  command_topic: "/house/sonOff/switch/power/S3"
+  payload_on: "1"
+  payload_off: "0"
+  retain: true
+- platform: mqtt
+  name: "Bedroom Fan"
+  state_topic: "/house/sonOff/switch/power/S4"
+  command_topic: "/house/sonOff/switch/power/S4"
+  payload_on: "1"
+  payload_off: "0"
+  retain: true
+  
+  

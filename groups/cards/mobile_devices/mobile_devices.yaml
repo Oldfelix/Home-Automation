@@ -1,0 +1,4 @@
+  mobile_devices:
+    name: Mobile Hue Light
+    entities:
+      - light.mobile_one_light

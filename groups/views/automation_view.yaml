@@ -1,0 +1,7 @@
+  automation_view:
+    name: Automation
+    view: yes
+    entities:
+      - group.all_lights
+      - group.all_switches
+      

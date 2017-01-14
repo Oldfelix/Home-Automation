@@ -1,0 +1,44 @@
+# - name: Pathway low
+ # entities:
+ # light.kitchen_landing:
+ # state: 'on'
+ # brightness: '10'
+ # light.living_room_lamp:
+ # state: 'on'
+ # brightness: '1'
+ # light.master_landing:
+ # state: 'on'
+ # brightness: '10'
+ # light.upstairs_landing:
+ # state: 'on'
+ # brightness: '10'
+
+# - name: Return low
+ # entities:
+ # light.basement_stairwell:
+ # state: 'on'
+ # brightness: '50'
+ # light.family_room_overhead:
+ # state: 'on'
+ # brightness: '10'
+ # light.kitchen_landing:
+ # state: 'on'
+ # brightness: '10'
+ # light.living_room_lamp:
+ # state: 'on'
+ # brightness: '1'
+ # light.living_room_overhead:
+ # state: 'on'
+ # brightness: '10'
+ # light.master_landing:
+ # state: 'on'
+ # brightness: '10'
+ # group.nursery:
+ # state: 'on'
+ # brightness: '5'
+ # light.office_desk:
+ # state: 'on'
+ # brightness: '1'
+ # light.upstairs_landing:
+ # state: 'on'
+ # brightness: '10'

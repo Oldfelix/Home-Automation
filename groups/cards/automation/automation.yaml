@@ -1,0 +1,47 @@
+all switches and lights:
+ - group.all_lights
+ - group.all_switches
+# all mobile devices:
+ # - device_tracker.johnsiphone
+ # - device_tracker.suzannesiphone
+# all nonmobile devices:
+ # - device_tracker.ipad
+ # - device_tracker.iphone
+ # - device_tracker.johnsmacbookair
+ # - device_tracker.johnsworkiphone
+ # - device_tracker.macbookpro
+# nursery:
+ # - light.nursery_lamp_left
+ # - light.nursery_lamp_right
+# Automation Override:
+ # - input_boolean.location_disable
+ # - input_boolean.garage_notification_disable
+ # - input_boolean.light_auto_shutoff_disable
+# Basement:
+ # - thermostat.basement
+ # - light.family_room_overhead
+ # - light.basement_stairwell
+Main Floor:
+ # - thermostat.main_floor
+ - light.front_porch_light
+ - light.living_room_light
+ - switch.living_room
+ - switch.bedroom_fan
+
+Down stairs:
+ - light.mobile_one_light
+ - light.wing_cave_light
+ - switch.the_lab
+ 
+ 
+ 
+# Security_Sensors:
+ # - sensor.garage
+ # - sensor.spare
+# Weather:
+ # - sun.sun
+ # - sensor.weather_temperature
+ # - sensor.weather_summary
+ # - sensor.weather_precip
+ # - sensor.weather_precip_probability
+ # - sensor.weather_precip_intensity

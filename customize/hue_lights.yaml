@@ -1,0 +1,14 @@
+light.front_porch_light:
+  friendly_name: Front Porch
+  entity_picture: /local/huelight.jpg
+light.living_room_light:
+  friendly_name: Living Room Lamp
+  entity_picture: /local/huelight.jpg
+light.mobile_one_light:
+  friendly_name: Mobile Hue Light
+  entity_picture: /local/huelight.jpg
+light.wing_cave_light:
+  friendly_name: The Lab Lamp
+  entity_picture: /local/huelight.jpg
+light.kitchen:
+  hidden: yes

@@ -1,0 +1,6 @@
+outside_devices_view:
+    name: Outside
+    view: yes
+    entities: 
+      - light.front_porch_light
+     

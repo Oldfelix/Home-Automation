@@ -1,0 +1,6 @@
+  bedroom_view:
+    name: Bedroom
+    view: yes
+    entities:
+      - switch.bedroom_fan
+      

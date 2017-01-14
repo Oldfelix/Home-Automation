@@ -1,0 +1,46 @@
+all_off_delay:
+ alias: all_off_delay
+ sequence:
+ - delay:
+ minutes: 45
+ - execute_service: homeassistant.turn_off
+ service_data:
+ entity_id:
+ - group.all_lights
+ - group.all_switches
+
+away:
+ alias: away
+ sequence:
+ - alias: Away - Turn off lights
+ execute_service: homeassistant.turn_off
+ service_data:
+ entity_id: group.allswitcheslights_hidden
+ - delay:
+ seconds: 15
+ - alias: Away - Set Nest to away mode
+ execute_service: thermostat.set_away_mode
+ service_data:
+ away_mode: True
+ entity_id: thermostat.main_floor
+
+home:
+ alias: Home
+ sequence:
+ - alias: Home - Set Nest to home mode
+ execute_service: thermostat.set_away_mode
+ service_data:
+ away_mode: False
+ entity_id: thermostat.main_floor
+
+# open_garage:
+ # alias: open garage door
+ # sequence:
+ # - alias: open garage door
+ # service: shell_command.open_garage
+
+# close_garage:
+ # alias: close garage door
+ # sequence:
+ # - alias: close garage door
+ # service: shell_command.close_garage

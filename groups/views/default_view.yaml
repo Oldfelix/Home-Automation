@@ -1,0 +1,16 @@
+ default_view:
+   view: yes
+   entities:
+     - group.main_floor
+     - group.down_stairs
+     - automation.action__poweroff_lights_after_sunrise
+     - automation.action__poweron_lights_before_sunset
+     - mqtt_eventstream.initialized
+     - media_player.plex_web_microsoft_edge
+    # - light.living_room_light
+    # - switch.living_room
+    # - light.front_porch_light
+    # - light.mobile_one_light
+    # - persistent_notification.1234
+    # - group.all_lights
+    # - group.all_switches

@@ -1,0 +1,5 @@
+  lab_devices:
+    name: The Lab
+    entities:
+      - light.wing_cave_light
+      - switch.the_lab
