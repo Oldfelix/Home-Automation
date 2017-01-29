@@ -46,7 +46,8 @@ Software on the three RPIs :
 
 #Links I like:
 
-* http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/
+* [BRUH Automation] (https://www.youtube.com/results?search_query=bruh+automation)			* [ItKindaWorks] (https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww)
+* http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/		
 * http://www.pibakery.org/
 * http://www.esp8266.nu/index.php/ESPEasy
 * https://github.com/thundergreen/home-assistant/wiki/Add-OZWCP-in-HASS
@@ -62,5 +63,4 @@ Software on the three RPIs :
 * https://github.com/dale3h/hassctl
 * https://community.home-assistant.io/t/android-ip-webcam-as-a-camera-plus-sensors/10566
 * https://home-assistant.io/developers/
-* https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww
-* 
+ 
