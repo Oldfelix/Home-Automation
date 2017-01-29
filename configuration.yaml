@@ -20,12 +20,15 @@ conversation:
 history:
 sun:
 logbook:
+recorder:
+  purge_days: 3
 
 ############################################################
 #
 # Components
 #
 ############################################################
+
 
             
 device_tracker:
@@ -51,13 +54,51 @@ mqtt_eventstream:
   publish_topic: /home-assistant-1
   subscribe_topic: /home-assistant-slave
 
+http:
+  # Uncomment this to add a password (recommended!)
+#   api_password: xxxxx
+   # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
 
-media_player:
-  - platform: plex
-  
+influxdb:
+  host: 127.0.0.1
+  #port: 8086
+  database: homeassistant
+
+
+# mysensors:
+  # gateways:
+    # - device: mqtt
+      # persistence_file: '/home/homeassistant/.homeassistant/mysensors1.json'
+      # topic_in_prefix: '/house/external/garage/GD1'
+      # topic_out_prefix: '/house/external/garage/GD1'
+  # debug: true
+  # optimistic: false
+  # persistence: true
+  # retain: true
+  # version: 2.0
  
-sensor:
-  - platform: yr
+
+  
+# nest:
+  # client_id: a1251e40-965b-4b6b-a3d2-e43a8b6ac488
+  # client_secret: Z4V5kWesWRcDqqlW9LuxMdk9y
+  # structure:
+    # - Primary
+  
+# media_player:
+  # - platform: plex
+
+
+# camera:
+  # platform: mjpeg
+  # name: "Garage Camera"
+  # image_width: 640
+  # image_height: 480
+  # image_quality: 7
+  # mjpeg_url: http://10.10.128.159:8082
+
+
   
 tts:
   platform: google
@@ -69,7 +110,23 @@ tts:
 ############################################################
 
 automation: !include_dir_merge_list automation
-switch: !include_dir_merge_list switches
+cover: !include_dir_merge_list cover
 group: !include_dir_merge_named groups
+switch: !include_dir_merge_list switches
+sensor: !include_dir_merge_list sensor
+
+
+################################################
+## Component Includes (Merge Named)
+################################################
+
+# input_boolean: !include_dir_merge_named input_boolean
+# input_select: !include_dir_merge_named input_select
+# input_slider: !include_dir_merge_named input_slider
+panel_iframe: !include_dir_merge_named panel_iframe
+# shell_command: !include_dir_merge_named shell_command
+script: !include_dir_merge_named script
+
+
 
 

@@ -1,0 +1,12 @@
+# - platform: mqtt
+  # state_topic: "/house/external/garage/GS2/sensor"
+  # command_topic: "/house/external/garage/GS2/sensor"
+  # name: "Garage Switch2 Status"
+  # qos: 0
+  # retain: true
+  # state_open: "open"
+  # state_closed: "closed"
+  # service_open: "1"
+  # service_close: "0"
+  # value_template: '{{ value }}'
+  # optimistic: true

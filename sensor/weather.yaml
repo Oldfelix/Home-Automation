@@ -1,28 +1,41 @@
-# - platform: darksky
-  # api_key: !secret forecast_key
-    
-  # monitored_conditions:
-# #    - summary
-# #    - precip_type
-    # - precip_intensity
-    # - temperature
-# #    - dew_point
-# #    - wind_speed
-# #    - wind_bearing
-# #    - cloud_cover
-    # - humidity
-# #    - nearest_storm_distance
-    # - minutely_summary
-# #    - pressure
-# #    - visibility
-# #    - ozone
+  # - platform: wunderground
+    # api_key: 4750633ccbd6e188
+    # monitored_conditions:
+      # - feelslike_f
+      # - feelslike_string
+      # - heat_index_f
+      # - heat_index_string
+      # - elevation
+      # - location
+      # - observation_time
+      # - precip_1hr_in
+      # - precip_1hr_string
+      # - precip_today_in
+      # - precip_today_string
+      # - pressure_in
+      # - pressure_mb
+      # - pressure_trend
+      # - relative_humidity
+      # - station_id
+      # - solarradiation
+      # - temperature_string
+      # - temp_f
+      # - UV
+      # - visibility_mi
+      # - weather
+      # - wind_degrees
+      # - wind_dir
+      # - wind_gust_mph
+      # - wind_mph
+      # - wind_string
 
-# - platform: nest
-  # monitored_conditions:
-# #     - 'temperature'
-# #     - 'target'
-     # - 'humidity'
-# #     - 'operation_mode'
-# #     - 'last_connection'
-# #     - 'co_status'
-# #     - 'smoke_status'
+  # - platform: darksky
+    # api_key: 4632be8a9a24c53db6dd672048a05903
+    # update_interval: '01:00'
+    # monitored_conditions:
+      # - temperature
+      # - wind_speed
+      # - humidity
+    
+      
+ 

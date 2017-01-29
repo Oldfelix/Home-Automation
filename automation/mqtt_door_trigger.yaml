@@ -1,0 +1,25 @@
+automation:
+  alias: Automated CloseDoorNow!
+  trigger:
+    platform: mqtt
+    topic: "/house/external/garage/GS1/sensor"
+    payload: 'TriggerDoorOpen'
+  action:
+    service: mqtt.publish
+    data:
+      topic: "/house/external/garage/GD1"
+      payload: 'CloseDoorNow'
+      qos: 2
+  
+# automation:
+  # alias: Automated CloseDoorNow!
+  # trigger:
+    # platform: mqtt
+    # topic: "house/external/garage/GS1/sensor"
+    # payload: 'TriggerDoorOpen'
+  # action:
+    # service: mqtt.publish
+    # data:
+      # topic: "house/external/garage/GD1"
+      # payload: 'CloseDoorNow'
+      # qos: 2

@@ -1,0 +1,41 @@
+- platform: mqtt
+  name: "Heartbeat_160_router"
+  state_topic: "devices/ip/heartbeat/router"
+  # unit_of_measurement: 'ms'
+
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/rpihub"
+  name: "Heartbeat_160_243"
+  # unit_of_measurement: 'ms'
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/nas"
+  name: "Heartbeat_160_nas"
+  # unit_of_measurement: 'ms'
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/wing"
+  name: "Heartbeat_160_wing"
+  # unit_of_measurement: 'ms' 
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/hue"
+  name: "Heartbeat_160_hue"
+  # unit_of_measurement: 'ms' 
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/sonoff1"
+  name: "Heartbeat_160_sonoff1"
+  # unit_of_measurement: 'ms' 
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/sonoff2"
+  name: "Heartbeat_160_sonoff1"
+  # unit_of_measurement: 'ms'  
+  
+  
+- platform: mqtt  
+  state_topic: "devices/ip/heartbeat/lorex"
+  name: "Heartbeat_160_lorex"
+  # unit_of_measurement: 'ms'  
+  

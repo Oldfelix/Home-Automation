@@ -2,3 +2,4 @@
     name: Outside Devices
     entities:
       - light.front_porch_light
+      - cover.garage_door

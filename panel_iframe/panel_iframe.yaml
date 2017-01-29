@@ -1,0 +1,12 @@
+################################################################
+## Panel Iframe
+################################################################
+
+grafana:
+  title: 'Grafana Data Center'
+  url: !secret grafana_url
+ 
+  
+nodered:
+  title: 'Node-Red on RPI 159'
+  url: !secret nodered_url

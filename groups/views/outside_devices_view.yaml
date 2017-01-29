@@ -3,4 +3,4 @@ outside_devices_view:
     view: yes
     entities: 
       - light.front_porch_light
-     
+      - cover.garage_door

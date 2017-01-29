@@ -1,0 +1,22 @@
+################################################################
+## Cover / Garage Door
+################################################################
+
+  - platform: mqtt
+    state_topic: "1/101/51/51421/gardoor/"
+    command_topic: "1/101/51/51421/gardoor/"
+    name: "Garage Door Controls"
+    qos: 0
+    retain: true
+    payload_open: "open"
+    payload_close: "close"
+    payload_stop: "STOP"
+    state_open: "open"
+    state_closed: "close"
+    optimistic: true
+#    value_template: '{{ value.x }}'
+    
+
+
+ 
+    

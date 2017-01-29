@@ -1,0 +1,79 @@
+##############################################################################
+###  Detect when things are on and forgotten about. Like any Good Watchdog.
+##############################################################################
+
+- alias: Automated CloseDoorNow!
+  trigger:
+    - platform: mqtt
+      topic: "house/external/garage/GS1/sensor"
+      payload: 'DoorOpenGS159'
+  action:
+    service: mqtt.publish
+    data:
+      topic: "house/external/garage/GD1"
+      payload: 'close2'
+      qos: 2
+ 
+ 
+ 
+# # - alias: Automated Light WatchDog!
+  # # trigger:
+    # # - platform: state
+      # # entity_id: light.hallway
+      # # state: 'on'
+      # # for: '00:20:00'
+    # # - platform: state
+      # # entity_id: group.foyer_lights
+      # # state: 'on'
+      # # for: '00:20:00'
+    # # - platform: state
+      # # entity_id:
+        # # - light.paige_go
+        # # - light.justin_go
+      # # state: 'on'
+      # # for: '02:00:00'
+      
+# # #Turn it off!
+  # # action:
+    # # - service: light.turn_off
+      # # data_template:
+        # # entity_id: "{{ trigger.entity_id }}"
+
+# # ##############################################################################
+
+# # - alias: If Outdoor lights are on and it's daytime, TURN THEM OFF!!
+  # # hide_entity: True
+  # # trigger:
+    # # - platform: time
+      # # minutes: '/47'
+      # # seconds: 0
+
+  # # condition:
+    # # - condition: state
+      # # entity_id: sun.sun
+      # # state: 'above_horizon'
+    # # - condition: state
+      # # entity_id: group.outdoor_lights
+      # # state: 'on'
+      
+  # # action:
+    # # - service: light.turn_off
+      # # entity_id: group.outdoor_lights
+
+
+# # - alias: "NOTIFY IF IP CHANGES"
+  # # hide_entity: True
+  # # trigger:
+    # # - platform: state
+      # # entity_id: sensor.ipchange
+      # # from: 'False'
+      # # to: 'True'
+  # # action:
+    # # - service: script.ifttt_notify
+      # # data_template:
+        # # value1: 'Changed IP address:'
+        # # value2: "New IP: {{ states('sensor.exteral_ip') }}"
+        # # value3: ' - Be sure to Change DNS!'
+
+# # ##############################################################################
+
