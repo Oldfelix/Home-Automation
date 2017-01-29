@@ -45,12 +45,14 @@ Software on the three RPIs :
 * Network intrusion detection.
 
 #Links I like:
-Need to figure out tables here.....
 
-* [BRUH Automation] (https://www.youtube.com/results?search_query=bruh+automation)|[ItKindaWorks] (https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww)
-* [Step-by-step Guide to Setting Up ESP Easy With Home Assistant]  (http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/) | [PiBakery] (http://www.pibakery.org)
-* [Add OZWCP in HASS] (https://github.com/thundergreen/home-assistant/wiki/Add-OZWCP-in-HASS) | [BRUH LED Strip Tutorial] (https://www.youtube.com/watch?v=9KI36GTgwuQ)
 
+* [BRUH Automation] (https://www.youtube.com/results?search_query=bruh+automation)
+* [ItKindaWorks] (https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww)
+* [Step-by-step Guide to Setting Up ESP Easy With Home Assistant]  (http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/) 
+* [PiBakery] (http://www.pibakery.org)
+* [Add OZWCP in HASS] (https://github.com/thundergreen/home-assistant/wiki/Add-OZWCP-in-HASS) 
+* [BRUH LED Strip Tutorial] (https://www.youtube.com/watch?v=9KI36GTgwuQ)
 * https://community.home-assistant.io/t/detect-if-ip-changes/6830
 * https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units
 * http://www.webpagefx.com/tools/emoji-cheat-sheet/
