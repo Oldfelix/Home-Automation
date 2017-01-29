@@ -46,7 +46,7 @@ Software on the three RPIs :
 
 #Links I like:
 
-* [BRUH Automation] (https://www.youtube.com/results?search_query=bruh+automation)			* [ItKindaWorks] (https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww)
+* [BRUH Automation] (https://www.youtube.com/results?search_query=bruh+automation)          |         * [ItKindaWorks] (https://www.youtube.com/channel/UCOnMlI1Si4i0O2Wkz-XReww)
 * http://groundp.in/2016/10/18/step-by-step-guide-to-setting-up-esp-easy-with-home-assistant/		
 * http://www.pibakery.org/
 * http://www.esp8266.nu/index.php/ESPEasy
